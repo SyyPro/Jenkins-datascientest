@@ -133,6 +133,6 @@ pipeline {
               subject: "${env.JOB_NAME} - Build # ${env.BUILD_ID} has failed",
               body: "For more info on the pipeline, check out the console output at ${env.BUILD_URL}"
       }
-
+    }
   }
 }
